@@ -1,0 +1,17 @@
+{
+  "name": "vaqt-server",
+  "version": "1.0.0",
+  "description": "Vaqt appointment booking backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.6",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
