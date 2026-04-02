@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+  a {
+    color: #0000ee;
+    text-decoration: underline;
+  }
+}
+
+@layer components {
+
+  .btn {
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .btn-primary {
+    background: #0044cc;
+    color: #ffffff;
+    border: 1px solid #000000;
+    padding: 5px 12px;
+  }
+
+  .btn-secondary {
+    background: #cccccc;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 5px 12px;
+  }
+
+  .btn-ghost {
+    background: #eeeeee;
+    color: #000000;
+    border: 1px solid #888888;
+    padding: 4px 8px;
+  }
+
+  .btn-danger {
+    background: #cc0000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    padding: 5px 12px;
+  }
+
+  .btn-outline {
+    background: #ffffff;
+    color: #0044cc;
+    border: 1px solid #0044cc;
+    padding: 5px 12px;
+  }
+
+  .input {
+    width: 100%;
+    border: 1px solid #000000;
+    padding: 4px 6px;
+    background: #ffffff;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .card {
+    background: #ffffff;
+    border: 1px solid #000000;
+    padding: 10px;
+  }
+
+  .card-hover {
+    background: #ffffff;
+    border: 1px solid #000000;
+    padding: 10px;
+  }
+
+  .badge {
+    display: inline-block;
+    border: 1px solid #000000;
+    padding: 1px 5px;
+    font-size: 12px;
+  }
+  .badge-pending   { background: #ffcc00; color: #000000; }
+  .badge-confirmed { background: #3366cc; color: #ffffff; }
+  .badge-completed { background: #00aa00; color: #ffffff; }
+  .badge-cancelled { background: #cccccc; color: #000000; }
+
+  .page-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  .section-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  .divider {
+    border-top: 1px solid #000000;
+  }
+}
+
+@layer utilities {
+  .espresso-8 { background-color: #f0f0f0; }
+}
